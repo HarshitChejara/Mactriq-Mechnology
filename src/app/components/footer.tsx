@@ -3,15 +3,15 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSquareFacebook } from '@fortawesome/free-brands-svg-icons';
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import { faSquareTwitter } from '@fortawesome/free-brands-svg-icons';
-import { faSquareInstagram } from '@fortawesome/free-brands-svg-icons';
-import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
-import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faSquareFacebook } from '@fortawesome/free-brands-svg-icons';
+// import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
+// import { faSquareTwitter } from '@fortawesome/free-brands-svg-icons';
+// import { faSquareInstagram } from '@fortawesome/free-brands-svg-icons';
+// import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
+// import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
+// import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+// import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 
 export default function Footer()
