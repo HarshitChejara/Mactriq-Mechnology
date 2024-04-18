@@ -3,15 +3,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faSquareFacebook } from '@fortawesome/free-brands-svg-icons';
-// import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
-// import { faSquareTwitter } from '@fortawesome/free-brands-svg-icons';
-// import { faSquareInstagram } from '@fortawesome/free-brands-svg-icons';
-// import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
-// import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
-// import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-// import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+
 
 
 export default function Footer()
@@ -27,28 +19,23 @@ export default function Footer()
             <p className="mt-7 text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
             <div className="md:flex gap-3 mt-8 flex items-center md:justify-start justify-center">
                 <a href="https://www.facebook.com/" target="_blank">
-                    {/* <FontAwesomeIcon icon={faSquareFacebook} className="h-8 w-8"/> */}
-                    {/* <Image className="h-7 w-7" width={100} height={100} alt="facebook" src="/facebook.png"/> */}
-                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="38" height="38" viewBox="0 0 50 50">
-                        <path d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M37,19h-2c-2.14,0-3,0.5-3,2 v3h5l-1,5h-4v15h-5V29h-4v-5h4v-3c0-4,2-7,6-7c2.9,0,4,1,4,1V19z"></path>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-3 7h-1.924c-.615 0-1.076.252-1.076.889v1.111h3l-.238 3h-2.762v8h-3v-8h-2v-3h2v-1.923c0-2.022 1.064-3.077 3.461-3.077h2.539v3z"/>
                     </svg>
                 </a>
                 <a href="https://twitter.com/" target="_blank">
-                    {/* <FontAwesomeIcon icon={faSquareTwitter} className="h-8 w-8"/> */}
-                    <Image className="h-8 w-8 mt-1" width={100} height={100} alt="twitter" src="/twitter.png"/>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-.139 9.237c.209 4.617-3.234 9.765-9.33 9.765-1.854 0-3.579-.543-5.032-1.475 1.742.205 3.48-.278 4.86-1.359-1.437-.027-2.649-.976-3.066-2.28.515.098 1.021.069 1.482-.056-1.579-.317-2.668-1.739-2.633-3.26.442.246.949.394 1.486.411-1.461-.977-1.875-2.907-1.016-4.383 1.619 1.986 4.038 3.293 6.766 3.43-.479-2.053 1.08-4.03 3.199-4.03.943 0 1.797.398 2.395 1.037.748-.147 1.451-.42 2.086-.796-.246.767-.766 1.41-1.443 1.816.664-.08 1.297-.256 1.885-.517-.439.656-.996 1.234-1.639 1.697z"/>
+                    </svg>
                 </a>
                 <a href="https://www.instagram.com/" target="_blank">
-                    {/* <FontAwesomeIcon icon={faSquareInstagram} className="h-8 w-8"/> */}
-                    {/* <Image className="h-7 w-7" width={100} height={100} alt="insta" src="/insta.png"/> */}
-                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="36" height="36" viewBox="0 0 50 50">
-                        <path d="M 16 3 C 8.83 3 3 8.83 3 16 L 3 34 C 3 41.17 8.83 47 16 47 L 34 47 C 41.17 47 47 41.17 47 34 L 47 16 C 47 8.83 41.17 3 34 3 L 16 3 z M 37 11 C 38.1 11 39 11.9 39 13 C 39 14.1 38.1 15 37 15 C 35.9 15 35 14.1 35 13 C 35 11.9 35.9 11 37 11 z M 25 14 C 31.07 14 36 18.93 36 25 C 36 31.07 31.07 36 25 36 C 18.93 36 14 31.07 14 25 C 14 18.93 18.93 14 25 14 z M 25 16 C 20.04 16 16 20.04 16 25 C 16 29.96 20.04 34 25 34 C 29.96 34 34 29.96 34 25 C 34 20.04 29.96 16 25 16 z"></path>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                        <path d="M15.233 5.488c-.843-.038-1.097-.046-3.233-.046s-2.389.008-3.232.046c-2.17.099-3.181 1.127-3.279 3.279-.039.844-.048 1.097-.048 3.233s.009 2.389.047 3.233c.099 2.148 1.106 3.18 3.279 3.279.843.038 1.097.047 3.233.047 2.137 0 2.39-.008 3.233-.046 2.17-.099 3.18-1.129 3.279-3.279.038-.844.046-1.097.046-3.233s-.008-2.389-.046-3.232c-.099-2.153-1.111-3.182-3.279-3.281zm-3.233 10.62c-2.269 0-4.108-1.839-4.108-4.108 0-2.269 1.84-4.108 4.108-4.108s4.108 1.839 4.108 4.108c0 2.269-1.839 4.108-4.108 4.108zm4.271-7.418c-.53 0-.96-.43-.96-.96s.43-.96.96-.96.96.43.96.96-.43.96-.96.96zm-1.604 3.31c0 1.473-1.194 2.667-2.667 2.667s-2.667-1.194-2.667-2.667c0-1.473 1.194-2.667 2.667-2.667s2.667 1.194 2.667 2.667zm4.333-12h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm.952 15.298c-.132 2.909-1.751 4.521-4.653 4.654-.854.039-1.126.048-3.299.048s-2.444-.009-3.298-.048c-2.908-.133-4.52-1.748-4.654-4.654-.039-.853-.048-1.125-.048-3.298 0-2.172.009-2.445.048-3.298.134-2.908 1.748-4.521 4.654-4.653.854-.04 1.125-.049 3.298-.049s2.445.009 3.299.048c2.908.133 4.523 1.751 4.653 4.653.039.854.048 1.127.048 3.299 0 2.173-.009 2.445-.048 3.298z"/>
                     </svg>
                 </a>
                 <a href="https://www.linkedin.com/" target="_blank">
-                    {/* <FontAwesomeIcon icon={faLinkedin} className="h-8 w-8"/> */}
-                    {/* <Image className="h-7 w-7" width={100} height={100} alt="linkedin" src="/linkedin.png"/> */}
-                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="36" height="36" viewBox="0 0 24 24">
-                        <path d="M20.8,2H3.2C2.5,2,2,2.5,2,3.2v17.5c0,0.7,0.5,1.2,1.2,1.2h17.5c0.7,0,1.2-0.5,1.2-1.2V3.2C22,2.5,21.5,2,20.8,2z M8.3,19.2H5.9V10h2.4V19.2z M7.1,8.8c-1.2,0-2-0.8-2-1.8c0-1,0.8-1.8,2-1.8c1.2,0,2,0.8,2,1.8C9.1,8,8.3,8.8,7.1,8.8z M19.2,19.2h-2.4v-6 c0-1.5-0.5-2.5-1.8-2.5c-1,0-1.6,0.7-1.8,1.4c-0.1,0.3-0.1,0.9-0.1,1.4v5.7h-2.4V10h2.3v1.5h0.1c0.3-0.6,1-1.3,2.3-1.3 c2,0,3.6,1.3,3.6,4.2V19.2z"></path>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
                     </svg>
                 </a>
             </div>

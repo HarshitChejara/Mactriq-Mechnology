@@ -13,7 +13,7 @@ const Header = () => {
       <Popover className={"sticky z-50 mx-auto flex items-center lg:px-12 px-6 py-2 h-24"}>
         <div className="flex inline-flex">
         <Link href="/"><Image src="/logo.png" alt="logo" width="50" height="50"/></Link>
-        <Link href="/"><Image src="/Mactriq.png" className="mt-auto mt-5 ml-3" alt="mactriq" width="180" height="50"/></Link>
+        <Link href="/"><Image src="/Mactriq.png" className="mt-5 ml-3" alt="mactriq" width="180" height="50"/></Link>
         </div>
 
         <div className="bg-transparent md:ml-auto mr-12">
@@ -48,7 +48,7 @@ const Header = () => {
               <div className="flex item-center justify-between">
                 {/* <Link href="/"><h1 className="text-black font-bold text-xl">The Accountant AI</h1></Link> */}
                 <Link href="/"><Image src="/logo.png" alt="logo" width="50" height="50"/></Link>
-                <Link href="/"><Image src="/Mactriq.png" className="mt-auto mt-5" alt="mactriq" width="180" height="50"/></Link>
+                <Link href="/"><Image src="/Mactriq.png" className="mt-5" alt="mactriq" width="180" height="50"/></Link>
                 <div className="-mr-2">
                 <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500">
                   <span className="sr-only">Close menu</span>

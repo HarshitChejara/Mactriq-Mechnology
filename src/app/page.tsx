@@ -122,7 +122,7 @@ export default function Home() {
             </div>
           </div>
           <div className="container px-5 py-24 mx-auto ">
-            <div className="lg:w-3/4 flex-col sm:flex-row sm:items-center items-start mx-auto shadow-xl p-20">
+            <div className="lg:w-3/4 flex-col sm:flex-row sm:items-center items-start mx-auto shadow-xl py-16 px-5">
               <h1 className="flex-grow text-center lg:text-5xl text-2xl title-font font-bold text-black tracking-wide">INNOVATIVE PRODUCTS TAILORED FOR YOUR SUCCESS</h1>
             </div>
             <button className="flex mx-auto mt-16 text-white bg-[#FA6312] py-5 px-8 focus:outline-none border border-[#FA6312] hover:bg-white hover:text-[#FA6312] rounded text-sm font-medium">OUR PRODUCTS</button>
@@ -216,7 +216,7 @@ export default function Home() {
 
         </div>
         <div className="container px-5 py-20 mx-auto ">
-          <div className="lg:w-3/4 text-center flex-col sm:flex-row sm:items-center items-start mx-auto shadow-xl p-20">
+          <div className="lg:w-3/4 text-center flex-col sm:flex-row sm:items-center items-start mx-auto shadow-xl py-16 px-5">
             <h6 className="font-bold text-sm text-gray-500 mb-4">INSIGHTFUL BLOGS</h6>
             <h1 className="flex-grow lg:text-5xl text-2xl title-font font-bold text-black tracking-wide">EXPLORE OUR BLOG FOR EXPERT PERSPECTIVES AND INDUSTRY TRENDS.</h1>
           </div>
@@ -253,7 +253,7 @@ export default function Home() {
           <button className="flex mx-auto mt-16 text-white bg-[#0CB14B] border border-[#0CB14B] py-5 px-14 focus:outline-none hover:bg-white hover:text-[#0CB14B] rounded text-sm font-medium">LOAD MORE</button>
         </div>
         <div className="container px-5 py-24 mx-auto ">
-          <div className="lg:w-3/4 text-center flex-col sm:flex-row sm:items-center items-start mx-auto shadow-xl p-20">
+          <div className="lg:w-3/4 text-center flex-col sm:flex-row sm:items-center items-start mx-auto shadow-xl py-16 px-5">
             <h1 className="flex-grow lg:text-5xl text-2xl title-font font-bold text-black">UNVEILING TRIUMPHS: THE HEARTFELT STORIES OF OUR VALUED CLIENTS.</h1>
           </div>
           <button className="flex mx-auto mt-16 text-[#33C5F0] bg-white border border-[#33C5F0] py-5 px-14 focus:outline-none hover:bg-[#33C5F0] hover:text-white rounded text-sm font-medium">CLIENT STORIES</button>
@@ -317,7 +317,7 @@ export default function Home() {
           <button className="flex mx-auto mt-16 text-white bg-[#33C5F0] border border-[#33C5F0] py-5 px-14 focus:outline-none hover:bg-white hover:text-[#33C5F0] rounded text-sm font-medium">LOAD MORE</button>
         </div>
         <div className="container px-5 mx-auto ">
-          <div className="bg-[#FA6312] text-center flex-col sm:flex-row sm:items-center items-start mx-auto shadow-xl px-20">
+          <div className="bg-[#FA6312] text-center flex-col sm:flex-row sm:items-center items-start mx-auto shadow-xl lg:px-20 px-12">
             <h1 className="bg-white py-5">&nbsp;</h1>
             <div className="py-8">
               <h1 className="flex-grow lg:text-5xl text-2xl title-font font-bold text-white">EMPOWERING ENTERPRISES, ENABLING EXCELLENCE - MACTRIQ AT YOUR SERVICE.</h1>
