@@ -57,8 +57,8 @@ export default function Footer()
             <div className="lg:w-1/3 md:w-1/2 w-full px-4">
                 <h2 className="title-font font-bold text-2xl mb-4">CONTACT US</h2>
                 <nav className="list-none mb-10">
-                {/* <li className="text-sm"><a href=""><FontAwesomeIcon icon={faLocationDot} className="h-4 w-4 mr-1"/>Location of the company’s office</a></li> */}
-                {/* <li className="text-sm mt-4"><a href=""><FontAwesomeIcon icon={faEnvelope} className="h-4 w-4 mr-1"/>Hello@XYZ.com</a></li> */}
+                {/* <li className="text-sm"><a href=""><FontAwesomeIcon icon={faLocationDot} className="h-4 w-4 mr-1"/>Location of the company’s office</a></li>
+                <li className="text-sm mt-4"><a href=""><FontAwesomeIcon icon={faEnvelope} className="h-4 w-4 mr-1"/>Hello@XYZ.com</a></li> */}
                 <li className="text-sm mt-4">
                     <div className="relative">
                         <input type="email" name="email" id="email" placeholder="Email Address" className="p-4 w-full border-b-4 border-gray-500"/>
