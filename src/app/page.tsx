@@ -254,7 +254,7 @@ export default function Home() {
         </div>
         <div className="container px-5 py-24 mx-auto ">
           <div className="lg:w-3/4 text-center flex-col sm:flex-row sm:items-center items-start mx-auto shadow-xl p-20">
-            <h1 className="flex-grow lg:text-5xl text-2xl title-font font-bold text-black">"UNVEILING TRIUMPHS: THE HEARTFELT STORIES OF OUR VALUED CLIENTS."</h1>
+            <h1 className="flex-grow lg:text-5xl text-2xl title-font font-bold text-black">UNVEILING TRIUMPHS: THE HEARTFELT STORIES OF OUR VALUED CLIENTS.</h1>
           </div>
           <button className="flex mx-auto mt-16 text-[#33C5F0] bg-white border border-[#33C5F0] py-5 px-14 focus:outline-none hover:bg-[#33C5F0] hover:text-white rounded text-sm font-medium">CLIENT STORIES</button>
         </div>
@@ -320,7 +320,7 @@ export default function Home() {
           <div className="bg-[#FA6312] text-center flex-col sm:flex-row sm:items-center items-start mx-auto shadow-xl px-20">
             <h1 className="bg-white py-5">&nbsp;</h1>
             <div className="py-8">
-              <h1 className="flex-grow lg:text-5xl text-2xl title-font font-bold text-white">"EMPOWERING ENTERPRISES, ENABLING EXCELLENCE - MACTRIQ AT YOUR SERVICE."</h1>
+              <h1 className="flex-grow lg:text-5xl text-2xl title-font font-bold text-white">EMPOWERING ENTERPRISES, ENABLING EXCELLENCE - MACTRIQ AT YOUR SERVICE.</h1>
               <button className="flex mx-auto mt-10 text-[#1B1717] bg-white border-[#1B1717]white py-5 px-14 focus:outline-none hover:bg-[#1B1717] hover:text-white rounded text-sm font-medium">CONTACT US</button>
             </div>
           </div>
