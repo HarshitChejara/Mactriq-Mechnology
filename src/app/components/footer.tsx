@@ -24,10 +24,10 @@ export default function Footer()
             </a>
             <p className="mt-7 text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
             <div className="md:flex gap-3 mt-8">
-                <a href="https://www.facebook.com/" target="_blank"><FontAwesomeIcon icon={faSquareFacebook} className="h-8 w-8"/></a>
+                {/* <a href="https://www.facebook.com/" target="_blank"><FontAwesomeIcon icon={faSquareFacebook} className="h-8 w-8"/></a>
                 <a href="https://twitter.com/" target="_blank"><FontAwesomeIcon icon={faSquareTwitter} className="h-8 w-8"/></a>
                 <a href="https://www.instagram.com/" target="_blank"><FontAwesomeIcon icon={faSquareInstagram} className="h-8 w-8"/></a>
-                <a href="https://www.linkedin.com/" target="_blank"><FontAwesomeIcon icon={faLinkedin} className="h-8 w-8"/></a>
+                <a href="https://www.linkedin.com/" target="_blank"><FontAwesomeIcon icon={faLinkedin} className="h-8 w-8"/></a> */}
             </div>
             <div className="flex md:flex mt-5">
                 <Link href="/"><Image src="/logo.png" alt="logo" width="50" height="50"/></Link>
@@ -39,30 +39,30 @@ export default function Footer()
             <div className="lg:w-1/3 md:w-1/2 w-full px-4">
                 <h2 className="title-font font-bold text-2xl mb-4">MORE INFORMATION</h2>
                 <nav className="list-none mb-10">
-                <li className="text-sm"><a href=""><FontAwesomeIcon icon={faChevronRight} className="h-3 w-3 mr-1"/>Homepage</a></li>
+                {/* <li className="text-sm"><a href=""><FontAwesomeIcon icon={faChevronRight} className="h-3 w-3 mr-1"/>Homepage</a></li>
                 <li className="text-sm mt-4"><a href=""><FontAwesomeIcon icon={faChevronRight} className="h-3 w-3 mr-1"/>About Us</a></li>
                 <li className="text-sm mt-4"><a href=""><FontAwesomeIcon icon={faChevronRight} className="h-3 w-3 mr-1"/>Services</a></li>
-                <li className="text-sm mt-4"><a href=""><FontAwesomeIcon icon={faChevronRight} className="h-3 w-3 mr-1"/>Project</a></li>
+                <li className="text-sm mt-4"><a href=""><FontAwesomeIcon icon={faChevronRight} className="h-3 w-3 mr-1"/>Project</a></li> */}
                 </nav>
             </div>
             <div className="lg:w-1/3 md:w-1/2 w-full px-4">
                 <h2 className="title-font font-bold text-2xl mb-4">&nbsp;</h2>
                 <nav className="list-none mb-10">
-                <li className="text-sm"><a href=""><FontAwesomeIcon icon={faChevronRight} className="h-3 w-3 mr-1"/>Homepage</a></li>
+                {/* <li className="text-sm"><a href=""><FontAwesomeIcon icon={faChevronRight} className="h-3 w-3 mr-1"/>Homepage</a></li>
                 <li className="text-sm mt-4"><a href=""><FontAwesomeIcon icon={faChevronRight} className="h-3 w-3 mr-1"/>About Us</a></li>
                 <li className="text-sm mt-4"><a href=""><FontAwesomeIcon icon={faChevronRight} className="h-3 w-3 mr-1"/>Services</a></li>
-                <li className="text-sm mt-4"><a href=""><FontAwesomeIcon icon={faChevronRight} className="h-3 w-3 mr-1"/>Project</a></li>
+                <li className="text-sm mt-4"><a href=""><FontAwesomeIcon icon={faChevronRight} className="h-3 w-3 mr-1"/>Project</a></li> */}
                 </nav>
             </div>
             <div className="lg:w-1/3 md:w-1/2 w-full px-4">
                 <h2 className="title-font font-bold text-2xl mb-4">CONTACT US</h2>
                 <nav className="list-none mb-10">
-                <li className="text-sm"><a href=""><FontAwesomeIcon icon={faLocationDot} className="h-4 w-4 mr-1"/>Location of the company’s office</a></li>
-                <li className="text-sm mt-4"><a href=""><FontAwesomeIcon icon={faEnvelope} className="h-4 w-4 mr-1"/>Hello@XYZ.com</a></li>
+                {/* <li className="text-sm"><a href=""><FontAwesomeIcon icon={faLocationDot} className="h-4 w-4 mr-1"/>Location of the company’s office</a></li> */}
+                {/* <li className="text-sm mt-4"><a href=""><FontAwesomeIcon icon={faEnvelope} className="h-4 w-4 mr-1"/>Hello@XYZ.com</a></li> */}
                 <li className="text-sm mt-4">
                     <div className="relative">
                         <input type="email" name="email" id="email" placeholder="Email Address" className="p-4 w-full border-b-4 border-gray-500"/>
-                        <FontAwesomeIcon icon={faArrowRight} className="h-4 w-4 absolute top-4 right-4 text-gray-500"/>
+                        {/* <FontAwesomeIcon icon={faArrowRight} className="h-4 w-4 absolute top-4 right-4 text-gray-500"/> */}
                     </div>
                 </li>
                 </nav>
