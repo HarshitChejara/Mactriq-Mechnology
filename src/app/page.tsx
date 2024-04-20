@@ -139,7 +139,7 @@ export default function Home() {
 
       <section className="text-gray-600 body-font" id="our_products">
         <div className="lg:px-20">
-        <div className="container mx-auto flex px-5 py-20 md:flex-row flex-col items-center">
+        <div className="container mx-auto flex px-5 py-16 md:flex-row flex-col items-center">
           <div className=" md:w-1/2 mb-10 md:mb-0">
             <Image className="object-cover object-center rounded" width={700} height={600} alt="ledgepay" src="/ledgepay.png"/>
           </div>
@@ -154,7 +154,7 @@ export default function Home() {
         </div>
 
 
-        <div className="container mx-auto flex px-5 py-20 md:flex-row flex-col items-center">
+        <div className="container mx-auto flex px-5 py-16 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center text-black">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 tracking-wide">CRM - Samachar App</h1>
             <p className="mb-8 leading-relaxed">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
@@ -169,7 +169,7 @@ export default function Home() {
         </div>
 
 
-        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+        <div className="container mx-auto flex px-5 py-16 md:flex-row flex-col items-center">
           <div className=" md:w-1/2 mb-10 md:mb-0">
             <Image className="object-cover object-center rounded" width={700} height={600} alt="commixco" src="/commixco.png"/>
           </div>
@@ -184,7 +184,7 @@ export default function Home() {
         </div>
 
 
-        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+        <div className="container mx-auto flex px-5 py-16 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center text-black">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 tracking-wide">Payroll & HR : Sanchar App</h1>
             <p className="mb-8 leading-relaxed">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
@@ -199,7 +199,7 @@ export default function Home() {
         </div>
 
 
-        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+        <div className="container mx-auto flex px-5 py-16 md:flex-row flex-col items-center">
           <div className=" md:w-1/2 mb-10 md:mb-0">
             <Image className="object-cover object-center rounded" width={700} height={600} alt="whatsapp" src="/whatsapp.png"/>
           </div>
@@ -215,7 +215,7 @@ export default function Home() {
 
 
         </div>
-        <div className="container px-5 py-20 mx-auto ">
+        <div className="container px-5 mb-20 mx-auto ">
           <div className="lg:w-3/4 text-center flex-col sm:flex-row sm:items-center items-start mx-auto shadow-xl py-16 px-5">
             <h6 className="font-bold text-sm text-gray-500 mb-4">INSIGHTFUL BLOGS</h6>
             <h1 className="flex-grow lg:text-5xl text-2xl title-font font-bold text-black tracking-wide">EXPLORE OUR BLOG FOR EXPERT PERSPECTIVES AND INDUSTRY TRENDS.</h1>
@@ -231,7 +231,7 @@ export default function Home() {
 
 
       <section className="text-gray-600 body-font">
-        <div className="container px-5 lg:px-16 py-24 mx-auto">
+        <div className="container px-5 lg:px-16 lg:py-24 mx-auto">
           <div className="flex flex-wrap -m-4">
             <div className="p-12 md:w-1/2">
               <div className="h-full border-2 border-gray-200 overflow-hidden">
@@ -267,7 +267,7 @@ export default function Home() {
 
 
       <section className="text-gray-600 body-font">
-        <div className="container px-5 lg:px-20 py-24 lg:mb-20 mx-auto">
+        <div className="container px-5 lg:px-20 lg:py-24 mb-20 mx-auto">
           <div className="flex flex-wrap -m-4">
 
             <div className="p-4 md:w-1/3">
