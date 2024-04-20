@@ -27,7 +27,7 @@ export default function Home() {
 
 
       <section className="text-gray-600 body-font">
-        <div className="container px-5 py-24 mx-auto ">
+        <div className="container px-5 mx-auto ">
           <div className="lg:w-3/4 flex-col sm:flex-row sm:items-center items-start mx-auto shadow-xl p-10">
             <p className="flex-grow text-xl title-font text-black">We aim to empower through advanced technology, unveil untapped potential by introducing tailored resources and expert consultancy. Seamlessly bridge the gap between legacy systems and heightened profitability, ensuring optimal ROI with minimal effort for SMEs.</p>
             <h1 className="text-right text-black font-bold text-xl mt-5">WE ARE MACTRIQ TECHNOLOGIES! </h1>
@@ -38,7 +38,7 @@ export default function Home() {
 
 
 
-      <section className="text-gray-600 body-font">
+      <section className="text-gray-600 body-font" id="about_us">
         <div className="container mx-auto flex px-5 lg:px-20 py-24 md:flex-row flex-col items-center">
           <div className=" md:w-1/2 mb-10 md:mb-0">
             <Image className="object-cover object-center rounded" width={700} height={600} alt="Business_decisions_bro" src="/Business_decisions_bro.png"/>
@@ -59,7 +59,7 @@ export default function Home() {
 
 
 
-      <section className="text-gray-600 body-font">
+      <section className="text-gray-600 body-font" id="our_services">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-wrap w-full mb-20 flex-col">
             <p className="lg:w-1/2 w-full leading-relaxed text-gray-500 font-bold">EXPLORE OUR SERVICES</p>
@@ -121,7 +121,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="container px-5 py-24 mx-auto ">
+          <div className="container px-5 mt-24 mx-auto ">
             <div className="lg:w-3/4 flex-col sm:flex-row sm:items-center items-start mx-auto shadow-xl py-16 px-5">
               <h1 className="flex-grow text-center lg:text-5xl text-2xl title-font font-bold text-black tracking-wide">INNOVATIVE PRODUCTS TAILORED FOR YOUR SUCCESS</h1>
             </div>
@@ -137,7 +137,7 @@ export default function Home() {
 
 
 
-      <section className="text-gray-600 body-font">
+      <section className="text-gray-600 body-font" id="our_products">
         <div className="lg:px-20">
         <div className="container mx-auto flex px-5 py-20 md:flex-row flex-col items-center">
           <div className=" md:w-1/2 mb-10 md:mb-0">

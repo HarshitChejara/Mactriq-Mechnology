@@ -3,8 +3,11 @@
 // import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Header from "./components/header";
+import Header from './components/header';
 import Footer from "./components/footer";
+import { hotjar } from 'react-hotjar';
+import { useEffect } from 'react';
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,13 +20,43 @@ const metadata = {
   title: "Mactriq Technologies",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({children,}: Readonly<{children: React.ReactNode;}>) {
+
+
+  interface HotjarConfig {
+    id: number;
+    sv: number;
+    debug?: boolean;
+    nonce?: string;
+  }
+
+  useEffect(() => {
+    const hotjarConfig: HotjarConfig = {
+      id: 3763416,
+      sv: 6
+    };
+
+    hotjar.initialize(hotjarConfig);
+  }, []);
+
+
+
   return (
-    <html lang="en">
+    <html>
+    <head>
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-5970L2LGXZ"
+          />
+        <Script id="google-analytics">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-5970L2LGXZ');
+          `}
+        </Script>
+    </head>
       <body className="bg-white {inter.className}">
         <Header/>
           {children}

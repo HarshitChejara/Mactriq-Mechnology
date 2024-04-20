@@ -6,22 +6,47 @@ import { Popover, Transition } from "@headlessui/react";
 import { Bars3Icon } from "@heroicons/react/24/solid";
 import { XMarkIcon } from "@heroicons/react/20/solid";
 import { Fragment } from "react";
-
+import React, { useState } from 'react';
+import Modal from '../components/modal';
 
 const Header = () => {
+
+
+
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openModal = () => {
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
+
+
+
   return (
-      <Popover className={"sticky z-50 mx-auto flex items-center lg:px-12 px-6 py-2 h-24"}>
+      <Popover className={"sticky z-50 mx-auto flex items-center lg:px-12 px-6 py-2 h-24 shadow-md"}>
         <div className="flex inline-flex">
         <Link href="/"><Image src="/logo.png" alt="logo" width="50" height="50"/></Link>
         <Link href="/"><Image src="/Mactriq.png" className="mt-5 ml-3" alt="mactriq" width="180" height="50"/></Link>
         </div>
 
-        <div className="bg-transparent md:ml-auto mr-12">
+        {/* <div className="bg-transparent md:ml-auto mr-10">
           <div className="hidden sm:flex text-gray-900 font-bold items-center justify-center lg:gap-12 gap-4">
             <Link href="#home">HOME</Link>
-            <Link href="">ABOUT US</Link>
-            <Link href="">OUR SERVICES</Link>
-            <Link href="">OUR PRODUCTS</Link>
+            <Link href="#about_us">ABOUT US</Link>
+            <Link href="#our_services">OUR SERVICES</Link>
+            <Link href="#our_products">OUR PRODUCTS</Link>
+          </div>
+        </div> */}
+
+        <div className="bg-transparent md:ml-auto mr-5">
+          <div className="hidden sm:flex text-gray-900 font-bold items-center justify-center">
+            <Link href="#home" className="hover:bg-[#FA6312] hover:text-white lg:py-6 py-6 lg:px-7 px-4">HOME</Link>
+            <Link href="#about_us" className="hover:bg-[#FA6312] hover:text-white lg:py-6 py-6 lg:px-7 px-4">ABOUT US</Link>
+            <Link href="#our_services" className="hover:bg-[#FA6312] hover:text-white lg:py-6 py-6 lg:px-7 px-4">OUR SERVICES</Link>
+            <Link href="#our_products" className="hover:bg-[#FA6312] hover:text-white lg:py-6 py-6 lg:px-7 px-4">OUR PRODUCTS</Link>
           </div>
         </div>
 
@@ -59,20 +84,24 @@ const Header = () => {
 
               <div className="mt-6">
                 <nav className="grid gap-y-8">
-                  <Link className="text-black focus:outline-none px-2 font-bold" href="">HOME</Link>
-                  <Link className="text-black focus:outline-none px-2 font-bold" href="">ABOUT US</Link>
-                  <Link className="text-black focus:outline-none px-2 font-bold" href="">OUR SERVICES</Link>
-                  <Link className="text-black focus:outline-none px-2 font-bold" href="">OUR PRODUCTS</Link>
+                  <Link className="text-black focus:outline-none px-2 font-bold" href="#home">HOME</Link>
+                  <Link className="text-black focus:outline-none px-2 font-bold" href="#about_us">ABOUT US</Link>
+                  <Link className="text-black focus:outline-none px-2 font-bold" href="#our_services">OUR SERVICES</Link>
+                  <Link className="text-black focus:outline-none px-2 font-bold" href="#our_products">OUR PRODUCTS</Link>
                 </nav>
               </div>
-
+              <div className="mt-6 flex-col item-center gap-2">
+              <button onClick={openModal} type="button" className="text-white rounded py-1 px-2 leading-6 hover:bg-white hover:text-[#FA6312] bg-[#FA6312] border-[#FA6312] border flex">SIGN UP</button>
+              <Modal isOpen={isModalOpen} onClose={closeModal} />
+              </div>
             </div>
           </div>
         </Popover.Panel>
         </Transition>
 
         <div className="hidden sm:block lg:px-5 px-1 py-7 h-24 ">
-        <Link href=""><button type="button" className="text-white rounded py-1 px-2 leading-6 bg-[#FA6312] flex">SIGN UP</button></Link>
+        <button onClick={openModal} type="button" className="text-white rounded py-1 px-2 leading-6 hover:bg-white hover:text-[#FA6312] bg-[#FA6312] border-[#FA6312] border flex">SIGN UP</button>
+        <Modal isOpen={isModalOpen} onClose={closeModal} />
         </div>
       </Popover>
   );
