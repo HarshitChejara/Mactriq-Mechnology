@@ -215,13 +215,13 @@ export default function Home() {
 
 
         </div>
-        <div className="container px-5 mb-20 mx-auto ">
+        {/* <div className="container px-5 mb-20 mx-auto ">
           <div className="lg:w-3/4 text-center flex-col sm:flex-row sm:items-center items-start mx-auto shadow-xl py-16 px-5">
             <h6 className="font-bold text-sm text-gray-500 mb-4">INSIGHTFUL BLOGS</h6>
             <h1 className="flex-grow lg:text-5xl text-2xl title-font font-bold text-black tracking-wide">EXPLORE OUR BLOG FOR EXPERT PERSPECTIVES AND INDUSTRY TRENDS.</h1>
           </div>
           <button className="flex mx-auto mt-16 text-[#0CB14B] bg-white border border-[#0CB14B] py-5 px-14 focus:outline-none hover:bg-[#0CB14B] hover:text-white rounded text-sm font-medium">BLOGS</button>
-        </div>
+        </div> */}
       </section>
 
 
@@ -231,7 +231,7 @@ export default function Home() {
 
 
       <section className="text-gray-600 body-font">
-        <div className="container px-5 lg:px-16 lg:py-24 mx-auto">
+        {/* <div className="container px-5 lg:px-16 lg:py-24 mx-auto">
           <div className="flex flex-wrap -m-4">
             <div className="p-12 md:w-1/2">
               <div className="h-full border-2 border-gray-200 overflow-hidden">
@@ -251,7 +251,7 @@ export default function Home() {
             </div>
           </div>
           <button className="flex mx-auto mt-16 text-white bg-[#0CB14B] border border-[#0CB14B] py-5 px-14 focus:outline-none hover:bg-white hover:text-[#0CB14B] rounded text-sm font-medium">LOAD MORE</button>
-        </div>
+        </div> */}
         <div className="container px-5 py-24 mx-auto ">
           <div className="lg:w-3/4 text-center flex-col sm:flex-row sm:items-center items-start mx-auto shadow-xl py-16 px-5">
             <h1 className="flex-grow lg:text-5xl text-2xl title-font font-bold text-black">UNVEILING TRIUMPHS: THE HEARTFELT STORIES OF OUR VALUED CLIENTS.</h1>
